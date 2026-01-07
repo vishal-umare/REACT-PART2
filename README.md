@@ -14,6 +14,7 @@ This repository documents my daily progress while learning **React.js**.
 - Conditional rendering
 - Lists and keys
 - Forms and controlled components
+- Built a simple Todo App using the above concepts
 
 ## 🔄 Learning Progress
 I push updates **daily** as I explore new React concepts and improve my understanding through practice.
