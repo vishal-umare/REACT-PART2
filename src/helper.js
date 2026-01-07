@@ -6,5 +6,8 @@ function GenerateTicket(n){
     return arr;
 }
 
-export {GenerateTicket};
+function sum(arr){
+    return arr.reduce((sum , curr) => sum + curr , 0) ;
+}
+export {GenerateTicket ,sum};
 
