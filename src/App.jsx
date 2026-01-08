@@ -7,6 +7,8 @@ import LikeButton from './LikeButton'
 import LudoBoard from './LudoBoard'
 import TodoList from './TodoList'
 import Lottery from './lottery'
+import TicketNum from './TicketNum'
+import Ticket from './Ticket'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +23,9 @@ function App() {
 
       {/* <TodoList/> */}
 
-      <Lottery/>
+      {/* <Lottery/> */}
+
+      <Lottery n={4} winSum={15}/> 
     </>
   )
 }
