@@ -11,6 +11,9 @@ import TicketNum from './TicketNum'
 import Ticket from './Ticket'
 import Form from './Form'
 import CommentsForm from './commentsForm'
+import SearchBox from './SearchBox'
+import InfoBox from './infoBox'
+import WeatherApp from './WeatherApp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,7 +34,13 @@ function App() {
 
       {/* <Form/> */}
 
-      <CommentsForm/>
+      {/* <CommentsForm/> */}
+
+      {/* <SearchBox /> */}
+
+      {/* <InfoBox/> */}
+
+      <WeatherApp/>
     </>
   )
 }

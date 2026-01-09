@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(245, 245, 245, 0.856);
+}
+.SearchBox{
+    /* background-color: rgb(132, 208, 218); */
+    padding: 5px;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}

@@ -1,13 +1,5 @@
-/* .CommentBox{
-    border: 1px solid gray;
-    padding: 40px;
-    border-radius: 15px;
-} */
 
-
-
-
-
+/*
 .rating-container input {
   width: 90px;
 }
@@ -768,7 +760,7 @@ button:active {
   font-weight: 700;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1200px) {
   .CommentBox {
     grid-template-columns: 1fr;
@@ -942,3 +934,7 @@ button:active {
     font-size: 1.2rem;
   }
 }
+
+
+
+*/
