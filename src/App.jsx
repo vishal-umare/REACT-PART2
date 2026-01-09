@@ -10,6 +10,7 @@ import Lottery from './lottery'
 import TicketNum from './TicketNum'
 import Ticket from './Ticket'
 import Form from './Form'
+import CommentsForm from './commentsForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +29,9 @@ function App() {
 
       {/* <Lottery n={4} winSum={15}/>  */}
 
-      <Form/>
+      {/* <Form/> */}
+
+      <CommentsForm/>
     </>
   )
 }
